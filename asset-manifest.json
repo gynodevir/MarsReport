@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MarsReport/static/css/main.148825dc.css",
+    "main.css": "/MarsReport/static/css/main.20ef6318.css",
     "main.js": "/MarsReport/static/js/main.47ce1d0a.js",
     "index.html": "/MarsReport/index.html",
-    "main.148825dc.css.map": "/MarsReport/static/css/main.148825dc.css.map",
+    "main.20ef6318.css.map": "/MarsReport/static/css/main.20ef6318.css.map",
     "main.47ce1d0a.js.map": "/MarsReport/static/js/main.47ce1d0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.148825dc.css",
+    "static/css/main.20ef6318.css",
     "static/js/main.47ce1d0a.js"
   ]
 }
