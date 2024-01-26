@@ -218,14 +218,15 @@ article:has(:hover, :focus) {
 @media screen and (max-width: 600px) {
   .load-btn {
     margin-left: 0;
+    
+  }
+  .err {
+    margin-left: 100%;
+    font-size: small;
   }
  
 }
-@media screen and (max-width: 500px) {
-    .load-btn {
-      margin-left: 100%;
-    }
-}
+
 @media screen and (max-width: 500px) {
     .err {
       margin-left: 100%;
