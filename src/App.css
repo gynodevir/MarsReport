@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWViczlkMm14b2drOXNudjA1dWMwdDVhZWsyZjFyeDNpMWptajEybiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1zNbw27Jc420L6ApxI/giphy.gif') no-repeat;
+  background-size: cover;
+  color: rgb(250, 249, 246);
+  
+}
+.input {
+  margin-right: 70px;
+  border-radius: 30px;
+  border: none;
+  width: 50%;
+  transition: border 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+  /* Add smooth transitions to border, box-shadow, background-color, and transform properties */
+}
+/* App.css */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.input:hover {
+  border: 2px solid #4CAF50;
+  box-shadow: 
+    0 0 10px rgba(0, 128, 0, 0.5), /* Subtle outer shadow */
+    inset 0 0 20px rgba(255, 255, 255, 0.8), /* Inset box shadow for lightning effect */
+    inset 0 0 30px rgba(255, 255, 255, 0.6), /* Additional inset shadow for more glow */
+    inset 0 0 40px rgba(255, 255, 255, 0.4); /* Even more glow */
+  background-color: #f5f5f5; /* Change the background color on hover */
+  transform: scale(1.02); /* Add a slight scale effect on hover */
+}
+
+
