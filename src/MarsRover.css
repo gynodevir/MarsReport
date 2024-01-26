@@ -226,3 +226,9 @@ article:has(:hover, :focus) {
       margin-left: 100%;
     }
 }
+@media screen and (max-width: 500px) {
+    .err {
+      margin-left: 100%;
+      font-size: small;
+    }
+}

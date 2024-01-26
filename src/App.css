@@ -36,11 +36,16 @@
     transform: rotate(360deg);
   }
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   background: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWViczlkMm14b2drOXNudjA1dWMwdDVhZWsyZjFyeDNpMWptajEybiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1zNbw27Jc420L6ApxI/giphy.gif') no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   color: rgb(250, 249, 246);
-  
 }
 .input {
   margin-right: 70px;

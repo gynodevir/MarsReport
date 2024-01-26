@@ -67,7 +67,7 @@ const MarsRoverPhotos = ({ earthDate }) => {
           )}
         </div>
       ) : (
-        <p>No photos available for the selected Earth date.</p>
+        <p className='err'>No photos available for the selected Earth date.</p>
       )}
     </div>
   );
